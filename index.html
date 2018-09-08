@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assest/stylesheet/formstyle.css">
+    <link rel="stylesheet" href="assest/bootstrap/css/bootstrap.min.css">
+    <script scr="assest/"></script>
+    <title>Doctor Availability Form</title>
+</head>
+<body>
+   <div id="form">
+       <div class="form-section">
+            <div class="container">
+                <h1>
+                   Doctor Avilability Form
+                </h1>
+                <div class="form-bg">
+                    <div class="form-margin">
+                     <form action="#" method="POST">
+                        <table>
+                            <!-- Doctor Name -->
+                            <tr>
+                                <td><label for="doc_name">Doctor Name :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <input type="text" name="docname" id="doc_name" placeholder="Name" style="width:420px; height:35px;" required>
+                                </td>
+                            </tr>
+                          <!-- Spacing -->
+                            <tr style="height:30px;"></tr>
+                          <!-- Specialization -->
+                            <tr>
+                                <td><label for="special">Specialization :</label> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="special" style="width:420px; height:35px;" >
+                                            <option value="derma">Orthopedic</option>
+                                                <option value="derma">Dermatologist</option>
+                                                <option value="dentist">Dentist</option>
+                                                <option value="pedia">Pediatrics</option>
+                                                <option value="ent" >ENT</option>
+                                                <option value="radio">Radiologist</option>
+                                                <option value="neuro">Neurologist</option>
+                                                <option value="ayur">Ayurvedic</option>
+                                    </select>
+                                </td>
+                            </tr>
+                           <!-- Spacing -->
+                            <tr style="height:30px;"></tr>
+                           <!-- Area -->
+                            <tr>
+                                <td> <label for="area">Which Area :</label> </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select name="area" style="width:420px; height:35px;" >
+                                            <option value="newyork">New York</option>
+                                            <option value="usa">USA</option>
+                                            <option value="jercy">New Jercy</option>
+                                            <option value="michigan">Michigan</option>
+                                            <option value="ohio" >Ohio</option>
+                                            <option value="washington">Washington</option>
+                                            <option value="texas">Texas</option>
+                                            <option value="dallas">Dallas</option>
+                                    </select>
+                                </td>
+                            </tr>
+                             <!-- Spacing -->
+                             <tr style="height:30px;"></tr>
+                             <!-- Appointment -->
+                              <tr>
+                                  <td> <label for="appoint">Date Of Appointment :</label> </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                    <input type="date" style="width:420px; height:35px;" >
+                                  </td>
+                              </tr>
+                              <!-- Spacing -->
+                             <tr style="height:30px;"></tr>
+                             <!-- Appointment -->
+                              <tr>
+                                  <td> <label for="exper">Year Of Experience :</label> </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                      <input type="number" min="0" max="50" style="width:420px; height:35px;" placeholder="0">
+                                  </td>
+                              </tr>
+                               <!-- Spacing -->
+                             <tr style="height:30px;"></tr>
+                             <!-- Appointment -->
+                              <tr>
+                                  <td> <label for="time">Time :</label> </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                      <input type="text" style="width:420px; height:35px;" placeholder="0" required>
+                                  </td>
+                              </tr>
+                                <!-- Spacing -->
+                             <tr style="height:30px;"></tr>
+                             <!-- Appointment -->
+                              <tr>
+                                  <td> <label for="query">Queries :</label> </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                        <textarea cols="57" rows="6" spellcheck="false" style="resize:none;" placeholder="Your Queries"></textarea>
+                                  </td>
+                              </tr>
+                              <!-- <tr>
+                                  <td>
+                                        <input type="submit" value="Check Availability" style="text-align:center;">
+                                  </td>
+                              </tr> -->
+
+
+
+
+                              <div class="submit-button">
+                                    <input type="submit" value="Check Availability">
+                              </div>
+                        </table>
+                     </form>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+</body>
+</html>
